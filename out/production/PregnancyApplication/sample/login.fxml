@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.*?>
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="520.0" style="-fx-background-color: #EEEEEE;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.LoginController">
+    <left>
+        <AnchorPane prefHeight="400.0" prefWidth="110.0" BorderPane.alignment="CENTER" />
+    </left>
+   <right>
+        <AnchorPane prefHeight="400.0" prefWidth="110.0" BorderPane.alignment="CENTER" />
+   </right>
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+                <Label layoutX="7.0" layoutY="140.0" text="Username" />
+                <TextField fx:id="usernameTextField" layoutX="78.0" layoutY="135.0" prefHeight="26.0" prefWidth="173.0" promptText="Username" />
+                <ImageView fx:id="lockImageView" fitHeight="70.0" fitWidth="256.0" layoutX="108.0" layoutY="17.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../../Image/logo.png" />
+                    </image>
+                </ImageView>
+                <Label layoutX="8.0" layoutY="192.0" text="Password" />
+                <PasswordField fx:id="enterPasswordField" layoutX="78.0" layoutY="187.0" prefHeight="26.0" prefWidth="173.0" promptText="Password" />
+                <Button fx:id="loginButton" alignment="CENTER" layoutX="55.0" layoutY="247.0" mnemonicParsing="false" onAction="#loginButtonOnAction" prefHeight="25.0" prefWidth="200.0" style="-fx-background-color: #F2C2C2 #F2C2C2 #F2C2C2;" text="Login" textFill="WHITE" />
+                <Button fx:id="cancelButton" alignment="CENTER" layoutX="55.0" layoutY="284.0" mnemonicParsing="false" onAction="#cancelButtonOnAction" prefHeight="25.0" prefWidth="200.0" style="-fx-background-color: #F2C2C2 #F2C2C2 #F2C2C2;" text="Cancel" textFill="WHITE" />
+            <Button fx:id="signupButton" alignment="CENTER" layoutX="55.0" layoutY="320.0" mnemonicParsing="false" onAction="#signupButtonOnAction" prefHeight="25.0" prefWidth="200.0" style="-fx-background-color: #F2C2C2 #F2C2C2 #F2C2C2;" text="Sign Up" textFill="WHITE" />
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

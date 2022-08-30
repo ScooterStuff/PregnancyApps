@@ -1,0 +1,36 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="PregnancyApplication:jar">
+    <output-path>$USER_HOME$/Desktop</output-path>
+    <root id="archive" name="PregnancyApplication.jar">
+      <element id="module-output" name="PregnancyApplication" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/javafx-sdk-17.0.1/lib/javafx.base.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/javafx-sdk-17.0.1/lib/javafx.swing.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/javafx-sdk-17.0.1/lib/javafx.controls.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/javafx-sdk-17.0.1/lib/javafx.fxml.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/mysql-connector-java-8.0.25 4/mysql-connector-java-8.0.25.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/javafx-sdk-17.0.1/lib/javafx-swt.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-fxml/16/javafx-fxml-16.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-fxml/16/javafx-fxml-16-mac.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-controls/16/javafx-controls-16.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-controls/16/javafx-controls-16-mac.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-graphics/16/javafx-graphics-16.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-graphics/16/javafx-graphics-16-mac.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-base/16/javafx-base-16.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-base/16/javafx-base-16-mac.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/javafx-sdk-17.0.1/lib/javafx.media.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/javafx-sdk-17.0.1/lib/javafx.graphics.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/javafx-sdk-17.0.1/lib/javafx.web.jar" path-in-jar="/" />
+      <element id="library" level="module" name="javafx-fxml" module-name="PregnancyApplication" />
+      <element id="dir-copy" path="$PROJECT_DIR$/Image" />
+      <element id="file-copy" path="$USER_HOME$/Downloads/mysql-connector-java-8.0.25 4/mysql-connector-java-8.0.25.jar" />
+      <element id="file-copy" path="$USER_HOME$/Downloads/javafx-sdk-17.0.1/lib/javafx-swt.jar" />
+      <element id="file-copy" path="$USER_HOME$/Downloads/javafx-sdk-17.0.1/lib/javafx.base.jar" />
+      <element id="file-copy" path="$USER_HOME$/Downloads/javafx-sdk-17.0.1/lib/javafx.controls.jar" />
+      <element id="file-copy" path="$USER_HOME$/Downloads/javafx-sdk-17.0.1/lib/javafx.fxml.jar" />
+      <element id="file-copy" path="$USER_HOME$/Downloads/javafx-sdk-17.0.1/lib/javafx.graphics.jar" />
+      <element id="file-copy" path="$USER_HOME$/Downloads/javafx-sdk-17.0.1/lib/javafx.media.jar" />
+      <element id="file-copy" path="$USER_HOME$/Downloads/javafx-sdk-17.0.1/lib/javafx.swing.jar" />
+      <element id="file-copy" path="$USER_HOME$/Downloads/javafx-sdk-17.0.1/lib/javafx.web.jar" />
+    </root>
+  </artifact>
+</component>
